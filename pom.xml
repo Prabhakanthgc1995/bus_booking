@@ -8,6 +8,13 @@
     <artifactId>bus-booking-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+    <distributionManagement>
+           <repository>
+             <id>central</id>
+             <name>a0ae8lyciqljf-artifactory-primary-0-releases</name>
+             <url>https://trialtmfoso.jfrog.io/artifactory/hello-world-war-libs-release</url>
+           </repository>
+    </distributionManagement>
 
     <!-- Parent for Spring Boot -->
     <parent>
